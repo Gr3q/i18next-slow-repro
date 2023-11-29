@@ -1,0 +1,53 @@
+{
+  "compilerOptions":
+  {
+    "experimentalDecorators": true,
+    "outDir": "dist/",
+    "noImplicitAny": true,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "target": "es6",
+    "noImplicitThis": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "removeComments": false,
+    "isolatedModules": false,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "strictBindCallApply": true,
+    "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "preserveConstEnums": false,
+    "strict": true,
+    "rootDir": "./",
+    "baseUrl": "./",
+  },
+
+  
+
+  // Each build folder must be included here otherwise vs code wont give errors
+  "include":
+  [
+    "./**/*",
+  ],
+
+  // Extensive excludes as large projects stop vs code from enabling ts compilation
+  "exclude":
+  [
+      ".git",
+      ".app-cache",
+      ".npm",
+      ".npm-tmp",
+      "dist",
+      "dist*",
+      "node_modules",
+      "**/dist/*",
+      "**/node_modules/*",
+	  "build/dev/material-font-icons/template.ts",
+	  "./build/dev/duma-font/templates/**/*"
+  ],
+}

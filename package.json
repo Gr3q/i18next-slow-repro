@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "i18next": "23.7.7",
+    "typescript": "^5.3.2"
+  }
+}
