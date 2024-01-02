@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "i18next": "23.7.13",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.3"
   }
 }
